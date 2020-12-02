@@ -1,0 +1,9 @@
+<app-loading *ngIf="showLoadingAnimation | async"></app-loading>
+<app-nav></app-nav>
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
